@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<beans xmlns = "http://www.springframework.org/schema/beans"
+       xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id ="department" class = "com.radha.Department">
+        <property name="deptName" value="Information Technology"></property>
+    </bean>
+
+    <bean id = "employee" class = "com.radha.Employee" autowire="constructor"></bean>
+    <!-- <bean id = "employee" class = "com.radha.Employee" autowire="byType"></bean> -->
+    <!-- <bean id = "employee" class = "com.radha.Employee" autowire="byName"></bean> -->
+
+</beans>

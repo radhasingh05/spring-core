@@ -1,0 +1,6 @@
+run below comments in terminal
+
+mvn clean package
+mvn jetty:run
+
+
